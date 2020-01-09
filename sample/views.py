@@ -4,7 +4,7 @@ from .models import Post
 from .serializers import PostSerializer
 
 
-class PostViewSet(viewsets.ModelViewSet):     # 위에 뷰 2개,  crud모두 구현됨
+class PostViewSet(viewsets.ModelViewSet):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
 

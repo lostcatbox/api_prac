@@ -8,4 +8,5 @@ router.register(r'posts', views.PostViewSet) # 이렇게 posts는 url프리픽�
 
 urlpatterns = [
     path('', include(router.urls)),
+
 ]
