@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b401cfb-ff6a-4e67-a9ad-9186feb5e4d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/api_prec.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api_prec.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/sample/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sample/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sample/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Untitled.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="7fccfe62-9ea2-459f-93fc-b3ebe66bfef5" />
   <component name="ProjectId" id="1W3jDEZlW6qYqRDNmGSvQ6NRqVG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -85,7 +82,7 @@
       <workItem from="1578385560365" duration="1675000" />
       <workItem from="1578412966111" duration="990000" />
       <workItem from="1578413995207" duration="2546000" />
-      <workItem from="1578472158004" duration="5918000" />
+      <workItem from="1578472158004" duration="7911000" />
     </task>
     <servers />
   </component>
