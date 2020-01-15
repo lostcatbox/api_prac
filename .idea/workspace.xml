@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4b401cfb-ff6a-4e67-a9ad-9186feb5e4d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sample/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,11 @@
       <workItem from="1578385560365" duration="1675000" />
       <workItem from="1578412966111" duration="990000" />
       <workItem from="1578413995207" duration="2546000" />
-      <workItem from="1578472158004" duration="7911000" />
+      <workItem from="1578472158004" duration="8260000" />
+      <workItem from="1578649319553" duration="7000" />
+      <workItem from="1578649338248" duration="468000" />
+      <workItem from="1578911058865" duration="11000" />
+      <workItem from="1578993531149" duration="5581000" />
     </task>
     <servers />
   </component>
@@ -99,5 +103,28 @@
     </state>
     <state x="443" y="178" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1578470711124" />
     <state x="923" y="244" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1578385545830" />
+    <state x="7" y="23" width="1371" height="876" maximized="true" key="dock-window-1" timestamp="1579070482588">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="7" y="23" width="1371" height="876" maximized="true" key="dock-window-1/0.23.1440.877@0.23.1440.877" timestamp="1579070482588" />
+    <state x="2" y="23" width="1427" height="878" maximized="true" key="dock-window-2" timestamp="1579071840122">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="2" y="23" width="1427" height="878" maximized="true" key="dock-window-2/0.23.1440.877@0.23.1440.877" timestamp="1579071840122" />
+    <state x="378" y="97" width="683" height="729" key="find.popup" timestamp="1579072531533">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="378" y="97" width="683" height="729" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1579072531533" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/lib/python3.8/site-packages/django/db/models/base.py</url>
+          <line>402</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
