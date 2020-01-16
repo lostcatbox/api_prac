@@ -6,16 +6,10 @@ from .serializers import PostSerializer
 from .models import Post
 from django.shortcuts import get_object_or_404
 
-class PostListAPIView(mixins.ListModelMixin, mixins.CreateModelMixin, generics.GenericAPIView):
+class PostListAPIView(generics.ListCreateAPIView):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
 
-    def get(self, request, *args, **kwargs):
-        return self.list(request)
-
-
-    def post(self, request,  *args, **kwargs):
-        return self.create(request)
 
 
 
