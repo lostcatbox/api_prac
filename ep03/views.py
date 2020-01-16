@@ -14,19 +14,9 @@ class PostListAPIView(generics.ListCreateAPIView):
 
 
 # /post/10 => GET, PUT, DELETE 지원하기
-class PostDetailAPIVIew(mixins.RetrieveModelMixin, mixins.UpdateModelMixin,
-                     mixins.DestroyModelMixin, generics.GenericAPIView):
+class PostDetailAPIVIew(generics.RetrieveUpdateDestroyAPIView):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
-
-    def get(self, request, *args, **kwargs):
-        return self.retrieve(request, *args, **kwargs)
-
-    def put(self, request, *args, **kwargs):
-        return self.update(request, *args, **kwargs)
-
-    def delete(self, request, *args, **kwargs):
-        return self.destroy(request, *args, **kwargs)
 
 
 
