@@ -7,6 +7,7 @@ from rest_framework import viewsets
 from .serializers import PostSerializer, UserSerializer
 from .models import Post
 from django.shortcuts import get_object_or_404
+
 class PostViewSet(viewsets.ModelViewSet):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
