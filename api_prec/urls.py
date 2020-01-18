@@ -20,5 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('sample/', include('sample.urls'), name='sample'),
     path('ep03/', include('ep03.urls'), name='ep03'),
-    path('ep04/', include('ep03.urls'), name='ep04'),
+    path('ep04/', include('ep04.urls'), name='ep04'),
 ]
