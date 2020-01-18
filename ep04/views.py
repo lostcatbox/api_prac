@@ -10,6 +10,10 @@ class PostViewSet(ReadOnlyModelViewSet):
 # readonlymodelviewset이므로 get요청밖에없음
 #아래형식으로 post_list라는 뷰함수를 만든것
 post_list = PostViewSet.as_view({
-    'get': 'list'
+    'get': 'list',
+})
+
+post_detail = PostViewSet.as_view({
+    'get': 'retrieve',
 })
 # Create your views here.
