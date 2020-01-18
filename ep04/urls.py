@@ -5,6 +5,7 @@ from rest_framework.routers import DefaultRouter
 router = DefaultRouter()
 router.register(r'post', views.PostViewSet)
 
+app_name='ep04'
 urlpatterns = [
     path('', include(router.urls)),
     # path('post/', views.post_list),
