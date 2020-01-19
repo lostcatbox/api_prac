@@ -9,9 +9,14 @@ class PostViewSet(ModelViewSet):
 
     def get_queryset(self):
         qs = super().get_queryset()
-        qs = qs.filter(
-            title__icontains='두'
-        )
+        if self.request.user.is_authenticated:  #로그인상태라면
+            qs = qs.filter(
+                author=self.request.user
+            )
+        else:
+            qs = qs.none() #empty result 나옴
+
+
         return qs
 
 # Create your views here.
