@@ -6,11 +6,13 @@ from rest_framework import mixins, generics
 from rest_framework import viewsets
 from .serializers import PostSerializer, UserSerializer
 from .models import Post
+from .pagination import PostPageNumberPagination
 from django.shortcuts import get_object_or_404
 
 class PostViewSet(viewsets.ModelViewSet):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
+    pagination_class = PostPageNumberPagination
 
 
 class UserViewSet(viewsets.ReadOnlyModelViewSet):
