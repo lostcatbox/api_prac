@@ -18,6 +18,8 @@ from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+ #prefix이름은 바뀌어도 상관없음
     path('sample/', include('sample.urls'), name='sample'),
     path('ep03/', include('ep03.urls'), name='ep03'),
     path('ep04/', include('ep04.urls'), name='ep04'),
