@@ -13,7 +13,6 @@ class PostViewSet(viewsets.ModelViewSet):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
     pagination_class = PostPageNumberPagination
-    throttle_scope = 'upload'
 
 
 class UserViewSet(viewsets.ReadOnlyModelViewSet):

@@ -7,8 +7,6 @@ from .models import Post
 class PostViewSet(ModelViewSet):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
-    throttle_scope = 'contact'
-
     permission_classes = [
         IsAuthorUpdateOrReadonly
     ]
