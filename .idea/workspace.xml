@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4b401cfb-ff6a-4e67-a9ad-9186feb5e4d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_prec/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_prec/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ep08/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/ep08/permissions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +90,7 @@
       <workItem from="1578993531149" duration="5876000" />
       <workItem from="1579078235432" duration="20000" />
       <workItem from="1579078381476" duration="9269000" />
-      <workItem from="1579314643980" duration="29223000" />
+      <workItem from="1579314643980" duration="33456000" />
     </task>
     <servers />
   </component>
@@ -114,10 +117,10 @@
     </state>
     <state x="0" y="23" width="708" height="877" key="dock-window-2/0.23.1440.877@0.23.1440.877" timestamp="1579314660585" />
     <state x="0" y="23" width="708" height="1037" key="dock-window-2/0.23.1920.1057@0.23.1920.1057" timestamp="1579165263120" />
-    <state x="378" y="97" width="683" height="729" key="find.popup" timestamp="1579072531533">
+    <state x="378" y="97" width="683" height="729" key="find.popup" timestamp="1579767661495">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="378" y="97" width="683" height="729" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1579072531533" />
+    <state x="378" y="97" width="683" height="729" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1579767661495" />
     <state x="973" y="253" width="894" height="815" key="search.everywhere.popup" timestamp="1579432198115">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
