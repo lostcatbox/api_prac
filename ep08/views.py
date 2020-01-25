@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from .permissions import IsAuthorUpdateOrReadonly
 from .serializers import PostSerializer
+from django.core.cache import cache
 from rest_framework.viewsets import ModelViewSet
 from rest_framework.response import Response
 from .models import Post
@@ -40,7 +41,14 @@ class PostViewSet(ModelViewSet):
 
     def list(self, request, *args, **kwargs):
         db_start = time.time()
-       #ㄴ post_list = list(self.queryset)
+        # post_list = list(self.queryset)
+
+        data = cache.get('post_list_cache')
+
+        if data is None:
+            data = self.queryset.values('author__username', 'message')
+            cache.set('post_list_cache', data)
+
         data = self.queryset.values('author__username', 'message')
         self.db_time = time.time() - db_start
 
