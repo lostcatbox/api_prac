@@ -8,9 +8,26 @@ from .models import Post
 from django.core.signals import request_started, request_finished
 import time
 
+from rest_framework.negotiation import BaseContentNegotiation
+from rest_framework.renderers import JSONRenderer
+
+
+class IgnoreClientContentNegotiation(BaseContentNegotiation):
+    def select_parser(self, request, parsers):
+
+        return parsers[0]
+
+    def select_renderer(self, request, renderers, format_suffix):
+
+        return (renderers[0], renderers[0].media_type)
+
 class PostViewSet(ModelViewSet):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
+    permission_classes = [IsAuthorUpdateOrReadonly]
+    authentication_classes = []
+    renderer_classes = [JSONRenderer]
+    content_negotiation_class = IgnoreClientContentNegotiation
 
     def perform_create(self, serializer):
         serializer.save(
