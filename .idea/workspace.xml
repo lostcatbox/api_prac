@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b401cfb-ff6a-4e67-a9ad-9186feb5e4d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_prec/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_prec/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_prec/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_prec/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +92,7 @@
       <workItem from="1578993531149" duration="5876000" />
       <workItem from="1579078235432" duration="20000" />
       <workItem from="1579078381476" duration="9269000" />
-      <workItem from="1579314643980" duration="42664000" />
+      <workItem from="1579314643980" duration="45820000" />
     </task>
     <servers />
   </component>
@@ -95,6 +100,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="893" y="184" key="#com.intellij.ide.util.MemberChooser" timestamp="1580018133463">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="893" y="184" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1580018133463" />
     <state x="337" y="154" key="CommitChangelistDialog2" timestamp="1578413997915">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -114,10 +123,10 @@
     </state>
     <state x="0" y="23" width="708" height="877" key="dock-window-2/0.23.1440.877@0.23.1440.877" timestamp="1579314660585" />
     <state x="0" y="23" width="708" height="1037" key="dock-window-2/0.23.1920.1057@0.23.1920.1057" timestamp="1579165263120" />
-    <state x="191" y="119" width="683" height="729" key="find.popup" timestamp="1579940844174">
+    <state x="191" y="119" width="683" height="729" key="find.popup" timestamp="1580017597946">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="191" y="119" width="683" height="729" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1579940844174" />
+    <state x="191" y="119" width="683" height="729" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1580017597946" />
     <state x="973" y="253" width="894" height="815" key="search.everywhere.popup" timestamp="1579432198115">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -131,6 +140,11 @@
           <url>file://$PROJECT_DIR$/venv/lib/python3.8/site-packages/django/db/models/base.py</url>
           <line>402</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api_prec/urls.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
