@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b401cfb-ff6a-4e67-a9ad-9186feb5e4d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_prec/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_prec/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_prec/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_prec/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +87,7 @@
       <workItem from="1578993531149" duration="5876000" />
       <workItem from="1579078235432" duration="20000" />
       <workItem from="1579078381476" duration="9269000" />
-      <workItem from="1579314643980" duration="45820000" />
+      <workItem from="1579314643980" duration="46406000" />
     </task>
     <servers />
   </component>
